@@ -1,9 +1,10 @@
-def oszto():
-    szam=20
-    while True:
-        if szam%20==0 and szam%19==0 and szam%18==0 and szam%17==0 and szam%16==0 and szam%15==0 and szam%14==0 and szam%13==0 and szam%12==0 and szam%11==0:
-            return szam
-        else:
-            szam=szam+1
+def oszto():#egy fv letrehozasa
+    szam=20 #20 a legkisebb szam amelyrol inditom
+    while True:#ciklus ahhoz hogy addig generaljon szamokat amig a feltetelek be nem teljesulnek
+        if szam%20==0 and szam%19==0 and szam%18==0 and szam%17==0 and szam%16==0 and szam%15==0 and szam%14==0 and szam%13==0 and szam%12==0 and szam%11==0:#feltetel amely azert van 20-tol 11-ig mivel ezek az egyjegyu szamok tobbszorosei tehat peldaul ha oszthato 14-gyel akkor oszthato 7-tel
+            return szam#a felteteleknek megfelelo szam 'visszaadasa'
+        else:#ha nem teljesul a feltetel a teendo:
+            szam=szam+1#noveljuk a szam erteket
 
-print(oszto())
+print(oszto())#fuggveny meghivasa
+#problema a programmal: a lassu futas es a feltetel 
