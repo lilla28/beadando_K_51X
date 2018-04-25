@@ -10,4 +10,4 @@ def oszthato():
                 db=db+1
         if db==10:
             return szam
-print(oszthato())
+print('a legkisebb szam, amely osztahato 1-20-ig maradék nélkül:',oszthato())
