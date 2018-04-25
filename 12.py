@@ -11,13 +11,9 @@ def prim(n):
 def number():
     hanyadik=0
     szam=1
-    while True:
-        if hanyadik == 10001:
-            return szam
+    while hanyadik<10001:
         if prim(szam):
             hanyadik=hanyadik+1
-            szam=szam+1
-        else:
-            szam=szam+1
+        szam=szam+1
 
 print(number())
