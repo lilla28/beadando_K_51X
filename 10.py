@@ -4,10 +4,10 @@ def oszthato():
     while True:
         db=0
         for oszto in range(11,21):
-            if szam%oszto==0:
-                db=db+1
-            else:
+            if szam%oszto>0:
                 szam=szam+1
+            else:
+                db=db+1
         if db==10:
             return szam
 print(oszthato())
