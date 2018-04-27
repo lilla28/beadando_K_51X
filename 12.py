@@ -16,4 +16,4 @@ def number():
             hanyadik=hanyadik+1
         szam=szam+1
 
-print(number())
+print('a 10001-dik primszam: ',number())
