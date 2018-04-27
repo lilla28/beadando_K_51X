@@ -27,7 +27,7 @@ if a=='A':
     szoveg=input('Adjon meg egy szöveget (angolul):')
     szoveglista=szoveg.split(' ')
     piglatin(szoveglista)
-if a=='B':
+elif a=='B':
     def back(szoveglista):
         for szo in szoveglista:
             szo=szo[0:len(szo)-2]
