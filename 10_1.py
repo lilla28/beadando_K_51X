@@ -1,9 +1,9 @@
 def osthato():
-    szam=20
-    while True:
-        db = 0
-        for i in range(1,21):
-            if szam%i==0:
+    szam=20 #szam amelytol indulni fog a szamlalas
+    while True:# ciklus amely addig fut amig a megfelelo erteket meg nem talalja
+        db = 0 # valtozo az osztok darabszamanak szamlalasara
+        for i in range(1,21):#osztas ciklusa
+            if szam%i==0:#feltelek:
                 db=db+1
             if szam%i>0:
                 szam=szam+1
