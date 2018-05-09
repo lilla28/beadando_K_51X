@@ -1,5 +1,5 @@
 a=input('A:english to piglatin or B:piglatin to english(A/B):')
-a=a.upper()
+a=a.upper() #ha veletlenul kisbetukent irna
 if a=='A':
     def piglatin(szoveglista):
         for szo in szoveglista:
